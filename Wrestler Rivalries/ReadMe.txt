@@ -1,0 +1,2 @@
+A Python program which takes data on wrestlers and their rivalries from an input text file and determines whether
+the wrestlers can be placed in two opposing groups based on those rivalries. If so, prints a possible grouping.

@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+table, th, td {
+    border-style: solid;
+}
+
+th, td {
+    padding: 3px;
+}
+
+form {
+    width: 260px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+label {
+    text-align: left;
+}
+
+fieldset>input {
+    width: 140px;
+    margin-left: 4ch;
+}
+
+fieldset>select {
+    width: 145px;
+    margin-left: 4ch;
+}
+
+input[type="date"] {
+    width: 140px;
+}
+
+fieldset>input[type="submit"] {
+    width: auto;
+    margin: auto;
+}
+
+.radioHolder {
+    text-align: center;
+}
+
+.radioHolder>input {
+    margin-left: 6ch;
+}
+
+#header {
+    border-style: solid;
+    border-width: 5px;
+    background-color: lightblue;
+    position: relative;
+    margin: auto;
+    height: 64px;
+    width: 1000px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#errContainer {
+    width: 260px;
+    height: 3ch;
+    margin: auto;
+    text-align: center;
+    color: red;
+}

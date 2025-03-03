@@ -1,0 +1,38 @@
+{{#if results}}
+<h1>{{results}}</h1>
+{{/if}}
+<form>
+    <fieldset>
+        <legend>Workout Log</legend>
+        <label for="name">Name</label><input type="text" name="name" id="name" maxlength="255"><br>
+        <label for="reps">Reps</label><input type="number" name="reps" id="reps"><br>
+        <label for="weight">Weight</label><input type="number" name="weight" id="weight"><br>
+        <label for="lbs">Unit</label>
+        <select name="lbs" id="lbs">
+            <option value=1>lbs</option>
+            <option value=0>kgs</option>
+        </select><br>
+        <label for="date">Date</label><input type="date" name="date" id="date"><br>
+        <input type="submit" id="insertButton" value="Submit">
+    </fieldset>
+</form>
+<div id="errContainer">
+    <p id="errMsg"></p>
+</div>
+<br>
+<table id="logTable">
+    <caption style="text-align: center;">Workouts</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Reps</th>
+            <th>Weight</th>
+            <th>Unit</th>
+            <th>Date</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody id="tableData"></tbody>
+</table>
+<script src="Script/script.js"></script>

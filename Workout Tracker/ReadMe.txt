@@ -1,0 +1,1 @@
+A web-based workout tracker written in Javascript and utilizing a backend database with MySQL.
